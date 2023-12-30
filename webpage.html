@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            color: purple;
+        }
+
+        nav ul li a {
+            color: purple;
+        }
+
+        footer {
+            background-color: purple;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Media queries for responsive design */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: white;
+            }
+
+            h1, h2 {
+                color: black;
+            }
+
+            nav ul li a {
+                color: black;
+            }
+
+            footer {
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Business</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+            <div class="gallery">
+                <img src="about1.jpg" alt="About Image 1">
+                <img src="about2.jpg" alt="About Image 2">
+                <img src="about3.jpg" alt="About Image 3">
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@example.com</p>
+            <img src="contact.jpg" alt="Contact Us">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Business Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
