@@ -1,0 +1,5 @@
+matplotlib
+pandas
+keras
+tensorflow
+numpy>=1.16.0
